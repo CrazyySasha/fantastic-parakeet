@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+}
+body {
+    background-color: #ebebeb;
+}
+.items-center {
+    align-items: center;
+}
+.content-spacebtw {
+    justify-content: space-between;
+}
+header {
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding-top: 15px;
+    gap: 20px;
+}
+.text {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+}
+.text {
+    font-family: Evelynn;
+}
+.gap40px {
+    gap: 40px;
+}
+.direction-column {
+    flex-direction: column;
+}
+.textx1 {
+    font-family: Evelynn;
+    font-weight: 600;
+    max-width: 700px;
+    font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 80px;
+}
+.bl {
+    padding: 14px 40px 14px 40px;
+    background-color: black;
+    color: white;
+}
+.textx2 {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+max-width: 565px;
+}
+.gap20px {
+    gap: 20px;
+}
+.input1 {
+    width: 260px;
+    height: 52px;
+    border-right: none;
+}
+.btn1 {
+    background-color: black;
+    color: white;
+    border-left: none;
+}
+@font-face {
+    font-family: Evelynn;
+    src:url();
+}
+@media screen and (max-width:1440px) {
+    .sfsdsdf {
+        max-width: 1360px;
+    }
+    header {
+        max-width: 1240px;
+    }
+}
+@media screen and (max-width:900px) {
+   .dfg {
+    flex-direction: column;
+   } 
+   header {
+    max-width: 98%;
+   }
+}
