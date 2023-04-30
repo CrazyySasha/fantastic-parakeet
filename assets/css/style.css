@@ -1,0 +1,195 @@
+/* @font-face {
+    font-family: 'Neue Machina';
+    src: url(/assets/fonts/neue-machina-free-for-personal-use/font/NeueMachina-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+.content-between {
+    align-content: space-between;
+}
+.justify-end {
+    justify-content: end;
+}
+.items-end {
+    align-items: end;
+}
+.content-end {
+    align-content: end;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.items-center {
+    align-items: center;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.max-w-1600 {
+    max-width: 1600px;
+}
+.gap-40 {
+    gap: 40px;
+}
+.gap-20 {
+    gap: 20px;
+}
+.p-header {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 36px;
+    padding-bottom: 120px;
+}
+.p-sec-hero {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.gap-3 {
+    gap: 3rem;
+}
+.p-sec-about {
+    padding-right: 70px;
+}
+.p-header-btn1 {
+    padding: 14px 46px 14px 46px;
+}
+.p-header-btn2 {
+    padding: 14px 36px 14px 36px;
+}
+.bg-gray {
+    background: rgba(202, 202, 202, 0.342);
+}
+.bg-black {
+    background: black;
+}
+.bg-transparent {
+    background: transparent;
+}
+.text-white {
+    color: white;
+}
+.get-started {
+    padding: 12px 45px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-left: none;
+}
+.inp-email {
+    padding: 12px 108px 12px 19px;
+    border: 1px solid black;
+    border-right: none;
+}
+.hero-h1 {
+    max-width: 721px;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 80px;
+}
+.hero-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.gap-2 {
+    gap: 2rem;
+}
+.btn-about {
+    padding: 6px 1rem;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.about-h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: -3px;
+    text-align: left;
+}
+.mb-200 {
+    margin-bottom: 200px;
+}
+.about-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.about-ul {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.table-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.table-h1 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -1.399999976158142px;
+    text-align: left;
+}
+.pr-28 {
+    padding-right: 28px;
+}
+.float-right {
+    float: right;
+}
+.text-right {
+    text-align: right;
+}
+.max-w-max {
+    max-width: max-content;
+}
+.max-w-31 {
+    max-width: 31rem;
+}
+.p-card {
+    padding: 3rem 40px;
+}
+.max-h-40 {
+    height: 40rem;
+}
