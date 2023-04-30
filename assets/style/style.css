@@ -1,19 +1,25 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Evelynn;
 }
+
 .flex {
     display: flex;
 }
+
 body {
     background-color: #ebebeb;
 }
+
 .items-center {
     align-items: center;
 }
+
 .content-spacebtw {
     justify-content: space-between;
 }
+
 header {
     max-width: 1700px;
     margin-left: auto;
@@ -21,77 +27,128 @@ header {
     margin-bottom: 80px;
     padding-top: 15px;
     gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
+
 .text {
     font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
 }
+
 .btn {
     background-color: transparent;
     border: none;
 }
+
 .text {
     font-family: Evelynn;
 }
+
 .gap40px {
     gap: 40px;
 }
+
 .direction-column {
     flex-direction: column;
 }
+
 .textx1 {
     font-family: Evelynn;
     font-weight: 600;
     max-width: 700px;
     font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 80px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
 }
+
 .bl {
     padding: 14px 40px 14px 40px;
     background-color: black;
     color: white;
 }
+
 .textx2 {
     font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-max-width: 565px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 565px;
 }
+
 .gap20px {
     gap: 20px;
 }
+
 .input1 {
     width: 260px;
     height: 52px;
+    border: 1px solid #151515;
     border-right: none;
 }
+
 .btn1 {
     background-color: black;
     color: white;
     border-left: none;
 }
+
+.btn-primary, .btn-secondary {
+    padding: 14px 40px 14px 40px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #151515;
+}
+
+.btn-primary {
+    background-color: #151515;
+    color: white;
+    border: 1px solid #151515;
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #151515;
+    border: 1px solid #151515;
+    /* transform: scale(1.1); */
+    box-shadow: 1px 1px 10px 4px #15151567;
+}
+
 @font-face {
     font-family: Evelynn;
-    src:url();
+    src: url("../fonts/NeueMachina-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
 }
+
 @media screen and (max-width:1440px) {
     .sfsdsdf {
         max-width: 1360px;
     }
+
     header {
         max-width: 1240px;
     }
 }
+
 @media screen and (max-width:900px) {
-   .dfg {
-    flex-direction: column;
-   } 
-   header {
-    max-width: 98%;
-   }
+    .dfg {
+        flex-direction: column;
+    }
+
+    header {
+        max-width: 98%;
+    }
+
+    .mobile\:text-28px {
+        font-size: 28px;
+    }
 }
