@@ -1,189 +1,189 @@
-/* @font-face {
-    font-family: 'Neue Machina';
-    src: url(/assets/fonts/neue-machina-free-for-personal-use/font/NeueMachina-Regular.otf);
-    font-weight: 400;
-    font-style: normal;
-} */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background-color: #e7e7e7;
+}
+.px-2 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+button {
+  font-size: 16px;
 }
 a {
-    color: black;
-}
-.content-between {
-    align-content: space-between;
-}
-.justify-end {
-    justify-content: end;
-}
-.items-end {
-    align-items: end;
-}
-.content-end {
-    align-content: end;
+  color: black;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
 .flex-col {
-    flex-direction: column;
-}
-.justify-between {
-    justify-content: space-between;
+  flex-direction: column;
 }
 .justify-around {
-    justify-content: space-around;
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
 }
 .items-center {
-    align-items: center;
+  align-items: center;
 }
-.mx-auto {
-    margin-left: auto;
-    margin-right: auto;
+.gap40 {
+  gap: 40px;
 }
-.max-w-1600 {
-    max-width: 1600px;
-}
-.gap-40 {
-    gap: 40px;
-}
-.gap-20 {
-    gap: 20px;
-}
-.p-header {
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 36px;
-    padding-bottom: 120px;
-}
-.p-sec-hero {
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-.gap-3 {
-    gap: 3rem;
-}
-.p-sec-about {
-    padding-right: 70px;
-}
-.p-header-btn1 {
-    padding: 14px 46px 14px 46px;
-}
-.p-header-btn2 {
-    padding: 14px 36px 14px 36px;
-}
-.bg-gray {
-    background: rgba(202, 202, 202, 0.342);
-}
-.bg-black {
-    background: black;
-}
-.bg-transparent {
-    background: transparent;
-}
-.text-white {
-    color: white;
-}
-.get-started {
-    padding: 12px 45px;
-    background: black;
-    color: white;
-    border: 1px solid black;
-    border-left: none;
-}
-.inp-email {
-    padding: 12px 108px 12px 19px;
-    border: 1px solid black;
-    border-right: none;
-}
-.hero-h1 {
-    max-width: 721px;
-    font-size: 4rem;
-    font-weight: 400;
-    line-height: 80px;
-}
-.hero-p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0px;
+.gap20 {
+  gap: 20px;
 }
 .mb-20 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .mb-40 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .mb-80 {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
-.gap-2 {
-    gap: 2rem;
+.px-header {
+  padding-left: 40px;
+  padding-right: 40px;
 }
-.btn-about {
-    padding: 6px 1rem;
-    border: 1px solid black;
-    background: transparent;
-    font-size: 14px;
-    font-weight: 800;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: center;
+.btn-login {
+  padding: 11px 46px;
+  border: 1px solid transparent;
+  background-color: transparent;
 }
-.about-h1 {
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 58px;
-    letter-spacing: -3px;
-    text-align: left;
+.btn-sign {
+  padding: 11px 46px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
 }
-.mb-200 {
-    margin-bottom: 200px;
+.max-w-1500 {
+  max-width: 1512px;
 }
-.about-p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
-.about-ul {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0px;
-    text-align: left;
+.hero-h1 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: -4px;
 }
-.table-p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: left;
+.hero-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
 }
-.table-h1 {
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: -1.399999976158142px;
-    text-align: left;
+.email {
+  border: 1px solid black;
+  border-right: none;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
 }
-.pr-28 {
-    padding-right: 28px;
+.inp-btn {
+  padding: 13px 46px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-left: none;
 }
-.float-right {
-    float: right;
+.payment {
+  gap: 2rem;
 }
-.text-right {
-    text-align: right;
+.hero-inf {
+  max-width: 721px;
 }
-.max-w-max {
-    max-width: max-content;
+.menu-btn {
+  padding: 5px 16px;
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  max-width: max-content;
 }
-.max-w-31 {
-    max-width: 31rem;
+.menu-h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -3px;
 }
+.menu-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+ul li {
+  list-style: square;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+table tr {
+  display: flex;
+  gap: 28px;
+}
+table h1 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -1.399999976158142px;
+}
+table p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+table tr :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  max-width: 499px;
+  padding-bottom: 48px;
+}
+.float-end {
+  text-align: end;
+  align-items: end;
+}
+.float-end p {
+  max-width: 496px;
+}
+span {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 77px;
+  letter-spacing: -4px;
+}
+sub,
+sup {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+/* .card-p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+ }
+.max-w-336 {
+  max-width: 336px;
+}
+.max-h-544 {
+  min-height: 544px;
+} */

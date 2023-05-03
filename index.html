@@ -4,151 +4,142 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>High-Landing</title>
+    <title>High Landing</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body class="bg-gray">
-    <header class="flex justify-between items-center p-header">
-      <div class="flex items-center gap-40">
-        <a href="#"><img src="./assets/images/LogoBlack.svg" alt="" /></a>
+  <body>
+    <header class="flex justify-between items-center px-2">
+      <div class="flex gap40 items-center">
+        <a href="#"><img src="./assets/images/LogoBlack.svg" alt=""></a>
         <a href="#">About us</a>
         <a href="#">How it works</a>
         <a href="#">Pricing</a>
         <a href="#">FAQs</a>
       </div>
-      <div class="flex items-center gap-20">
-        <buttno class="p-header-btn1 bg-transparent">Login</buttno>
-        <buttno class="p-header-btn2 bg-black text-white">Sign Up</buttno>
+      <div class="flex gap20 items-center">
+        <button class="btn-login">Login</button>
+        <button class="btn-sign">Sign Up</button>
       </div>
     </header>
 
-    <section
-      class="flex justify-between mx-auto max-w-1600 p-sec-hero gap-3 mb-200"
-    >
-      <div>
-        <h1 class="hero-h1 mb-20">
-          Always Track & Analyze Your Business Statistics To Succeed.
-        </h1>
-        <p class="hero-p mb-40">
-          A better way to manage your sales, team, clients & marketing — on a
-          single platform. Powerful, affordable & easy.
-        </p>
-        <div class="flex hero-inp mb-80">
-          <input
-            class="inp-email"
-            placeholder="Enter your email"
-            type="email"
-          />
-          <button class="get-started">Get started</button>
+    <section class="flex justify-between max-w-1500 gap40 mx-auto px-2">
+      <div class=" flex flex-col hero-inf gap40">
+        <h1 class="hero-h1 floa">Always Track & 
+          Analyze Your Business 
+          Statistics To Succeed.</h1>
+        <p class="hero-p">A better way to manage your sales, team, clients & marketing
+          — on a single platform. Powerful, affordable & easy.</p>
+        <div class="flex">
+          <input class="email" type="email" placeholder="Enter your email">
+          <button class="inp-btn">Get started</button>
         </div>
-        <div class="gap-2 flex">
-          <a href="#"><img src="./assets/images/VISA.svg" alt="" /></a>
-          <a href="#"><img src="./assets/images/MASTERCARD.svg" alt="" /></a>
-          <a href="#"><img src="./assets/images/PAYPALL.svg" alt="" /></a>
+        <div class="flex payment">
+          <a href="#"><img src="./assets/images/VISA.svg" alt=""></a>
+          <a href="#"><img src="./assets/images/MASTERCARD.svg" alt=""></a>
+          <a href="#"><img src="./assets/images/PAYPALL.svg" alt=""></a>
         </div>
       </div>
-      <img src="./assets/images/hero.svg" alt="" />
+      <div>
+        <img src="./assets/images/hero.svg" alt="">
+      </div>
     </section>
 
-    <section
-      class="flex justify-between mx-auto max-w-1600 p-sec-hero gap-3 mb-200"
-    >
-      <img src="./assets/images/about.svg" alt="" />
+    <section class="flex justify-between max-w-1500 mx-auto gap40 px-2">
       <div>
-        <button class="btn-about mb-20">About us</button>
-        <h1 class="about-h1 mb-40">
-          Faster, friendlier feedback loops make life easier.
-        </h1>
-        <p class="about-p mb-40">
-          Add a Viewer to your team so they can see everything you share, or
-          invite people to individual documents. It’s up to you. Stakeholders
-          can check out designs in their web browser, test prototypes and leave
-          feedback for free.
-        </p>
-        <ul class="about-ul">
-          <li class="mb-20">
-            Shared Cloud Libraries, for a single source of truth
-          </li>
-          <li class="mb-20">
-            Prototype previews for user testing and research
-          </li>
-          <li class="mb-20">Easy organization with projects</li>
-          <li class="mb-20">
-            Free developer handoff, right inside the browser
-          </li>
+        <img src="./assets/images/about.svg" alt="">
+      </div>
+      <div class="flex flex-col gap40">
+        <button class="menu-btn">About us</button>
+        <h1 class="menu-h1">Faster, friendlier feedback 
+          loops make life easier.</h1>
+        <p class="menu-p">Add a Viewer to your team so they can see everything you share, or invite 
+          people to individual documents. It’s up to you. Stakeholders can check 
+          out designs in their web browser, test prototypes and leave feedback for free.</p>
+        <ul class="flex flex-col gap20">
+          <li>Shared Cloud Libraries, for a single source of truth</li>
+          <li>Prototype previews for user testing and research</li>
+          <li>Easy organization with projects</li>
+          <li>Free developer handoff, right inside the browser</li>
           <li>Two-factor authentication and SSO</li>
         </ul>
       </div>
     </section>
 
-    <section
-      class="flex justify-between mx-auto max-w-1600 p-sec-hero gap-3 mb-200"
-    >
-      <div>
-        <button class="btn-about">How it works</button>
-        <h1 class="about-h1">Building the best space for collaboration.</h1>
-        <table class="table-about items-center">
-          <tr class="items-center">
-            <td class="pr-28"><img src="./assets/images/shared-clouds.svg" alt="" /></td>
+    <section class="flex justify-between max-w-1500 mx-auto gap40 px-2">
+      <div class="flex flex-col gap40">
+        <button class="menu-btn">How it works</button>
+        <h1 class="menu-h1">Building the best space 
+          for collaboration.</h1>
+        <table>
+          <tr>
+            <td><img src="./assets/images/shared-clouds.svg" alt=""></td>
             <td>
-              <h1 class="table-h1 mb-20">Shared Cloud Libraries</h1>
-              <p class="table-p mb-40">
-                Navigate to the Your work panel in the left sidebar. Select the
-                library you want to share. Select the Share icon in the upper
-                right to share the library.
-              </p>
+              <h2>Shared Cloud Libraries</h2>
+              <p>Navigate to the Your work panel in the left sidebar. 
+                Select the library you want to share. Select the Share 
+                icon in the upper right to share the library.</p>
             </td>
           </tr>
           <tr>
-            <td><img src="./assets/images/free-developer.svg" alt="" /></td>
+            <td><img src="./assets/images/free-developer.svg" alt=""></td>
             <td>
-              <h1 class="table-h1 mb-20">Free developer handoff, right inside</h1>
-              <p class="table-p mb-40">
-                Cloud Inspector makes it easy for developers to get the
-                information they need to turn pixels into code — all in the
-                browser and, most importantly, for free.
-              </p>
+              <h2>Free developer handoff, right inside</h2>
+              <p>Cloud Inspector makes it easy for developers to get 
+                the information they need to turn pixels into code — 
+                all in the browser and, most importantly, for free.</p>
             </td>
           </tr>
           <tr>
-            <td><img src="./assets/images/real-time.svg" alt="" /></td>
+            <td><img src="./assets/images/real-time.svg" alt=""></td>
             <td>
-              <h1 class="table-h1 mb-20">Real-time collaborative editing</h1>
-              <p class="table-p mb-40">
-                Room Service helps you build real-time collaborative features.
-                Add real-time data sync! Let users edit the same data at the
-                same time.
-              </p>
+              <h2>Real-time collaborative editing</h2>
+              <p>Room Service helps you build real-time collaborative features. Add real-time data sync! Let users edit the same data at the same time.</p>
             </td>
           </tr>
           <tr>
-            <td><img src="./assets/images/integrations.svg" alt="" /></td>
+            <td><img src="./assets/images/integrations.svg" alt=""></td>
             <td>
-              <h1 class="table-h1 mb-20">Integrations with the Cloud API</h1>
-              <p class="table-p mb-40">
-                Unlocking that value requires an iPaaS that delivers the
-                transformative power of APIs and integration.
-              </p>
+              <h2>Integrations with the Cloud API</h2>
+              <p>Unlocking that value requires an iPaaS that delivers the transformative power of APIs and integration. </p>
             </td>
           </tr>
         </table>
       </div>
-      <img src="./assets/images/howitworks.svg" alt="" />
-    </section>
-
-    <section class="flex justify-between mx-auto max-w-1600 p-sec-hero gap-3 mb-200 items-center">
-      <img src="./assets/images/pricing.svg" alt="">
-      <div class="">
-        <button class="btn-about mb-20 float-right">Pricing</button>
-        <h1 class="about-h1 mb-40 text-right float-right">
-          Select a membership level
-          the right price for you.
-        </h1>
-        <p class="about-p text-right float-right max-w-31">
-          Prices listed in USD. Taxes may apply. 
-          By using program you agree to our terms and policies.
-        </p>
+      <div>
+        <img src="./assets/images/howitworks.svg" alt="">
       </div>
     </section>
+
+    <section class="flex justify-between max-w-1500 mx-auto gap40 px-2 items-center">
+      <div> 
+        <img src="./assets/images/pricing.svg" alt="">
+      </div>
+      <div class="flex flex-col gap40 float-end">
+        <button class="menu-btn float-right">Pricing</button>
+        <h1 class="menu-h1">Select a membership level
+          the right price for you.</h1>
+        <p class="menu-p">Prices listed in USD. Taxes may apply. 
+          By using program you agree to our terms and policies.</p>
+      </div>
+    </section>
+
+    <!-- <section class="flex justify-between max-w-1500 mx-auto gap40 px-2 items-center">
+      <div class="flex flex-col max-w-336 justify-between max-h-544">
+        <div>
+          <h1>
+            <sup>$</sup><span>49</span> <sub>per month</sub>
+          </h1>
+          <p class="card-p">A pay-once license, just for you</p>
+        </div>
+        <div>
+          <ul>
+            <li>The Mac app — yours to keep</li>
+            <li>Beautiful White_level</li>
+            <li>One year of saving to Cloud</li>
+          </ul>
+        </div>
+        <button>Join</button>
+      </div>
+    </section> -->
   </body>
 </html>
