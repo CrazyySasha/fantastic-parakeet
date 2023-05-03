@@ -34,9 +34,13 @@ body {
     color: white;
 }
 
+.a {
+    transition: all .2s ease-in-out;
+}
+
 .a:hover {
     transform: scale(1.3);
-    transition: all .2s ease-in-out;
+   
     color: white;
 }
 header {
@@ -141,12 +145,13 @@ input {
     margin-top: 200px;
 }
 
+.hover {
+    transition: all .4s ease-in-out;
+}
+
 .hover:hover {
     transform: scale(1.1);
-    transition: all .4s ease-in-out;
-    margin-bottom: 55px;
-    margin-top: 50px;
-    margin-left: 50px;
+  
 }
 
 .flex-con {
