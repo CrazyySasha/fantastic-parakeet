@@ -38,7 +38,6 @@ header {
     font-size: 18px;
     line-height: 26px;
 }
-
 .btn {
     background-color: transparent;
     border: none;
@@ -96,38 +95,125 @@ header {
     color: white;
     border-left: none;
 }
-
-.btn-primary, .btn-secondary {
+.hrefka {
     padding: 14px 40px 14px 40px;
-    cursor: pointer;
+    background-color: #ebebeb;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
 }
 
-.btn-secondary {
-    background-color: transparent;
-    color: #151515;
+.max-width750 {
+    max-width: 750px;
 }
 
-.btn-primary {
-    background-color: #151515;
-    color: white;
-    border: 1px solid #151515;
-    transition: all .3s ease-in-out;
+.maxwidth500 {
+    max-width: 500px;
 }
 
-.btn-primary:hover {
-    background-color: transparent;
-    color: #151515;
-    border: 1px solid #151515;
-    /* transform: scale(1.1); */
-    box-shadow: 1px 1px 10px 4px #15151567;
+.items-end {
+    align-items: flex-end;
 }
 
-@font-face {
-    font-family: Evelynn;
-    src: url("../fonts/NeueMachina-Regular.otf");
+.maxwidth650px {
+    max-width: 650px;
+}
+
+.textx5 {
     font-style: normal;
     font-weight: 400;
+    font-size: 28px;
+    line-height: 27px;
 }
+
+.textx6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.a423 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.a49 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 77px;
+}
+
+.month {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.textx7 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+ul {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.hrefka2 {
+    padding: 14px 160px 14px 160px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.mg-top-20px {
+    margin-top: 20px;
+}
+
+.max-width650 {
+    width: 350px;
+    height: 500px;
+}
+.gap60px {
+    gap: 60px;
+}
+.pd-60px {
+    padding: 60px 60px 60px 60px;
+}
+.list2 {
+    color: white;
+    background-color: black;
+}
+.border2pxsolid {
+    border: 2px solid;
+}
+.grow1 {
+    flex-grow: 1;
+}
+.hrefka3 {
+    border: 2px solid;
+    padding: 14px 160px 14px 160px;
+    background-color: white;
+    color: black;
+    text-decoration: none; 
+}
+@font-face {
+    font-family: Evelynn;
+    src: url(../fonts/NeueMachina-Ultrabold.otf);}
 
 @media screen and (max-width:1440px) {
     .sfsdsdf {
@@ -148,7 +234,5 @@ header {
         max-width: 98%;
     }
 
-    .mobile\:text-28px {
-        font-size: 28px;
-    }
 }
+
