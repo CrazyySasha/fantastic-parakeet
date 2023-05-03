@@ -14,11 +14,11 @@ body {
 }
 @font-face {
     font-family: Machina;
-    src: url(images/machina.ttf/PPNeueMachina-PlainRegular.otf);
+    src: url(../fonts/PPNeueMachina-PlainRegular.otf);
 }
 @font-face {
     font-family: Machina-bold;
-    src: url(images/machina.ttf/PPNeueMachina-PlainUltrabold.otf);
+    src: url(../fonts/PPNeueMachina-PlainUltrabold.otf);
 }
 
 /* HEADER */
