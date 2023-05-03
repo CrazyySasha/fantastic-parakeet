@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Evelynn;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.content-spacebtw {
+    justify-content: space-between;
+}
+
+header {
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding-top: 15px;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
+.text {
+    font-family: Evelynn;
+}
+
+.gap40px {
+    gap: 40px;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.textx1 {
+    font-family: Evelynn;
+    font-weight: 600;
+    max-width: 700px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.bl {
+    padding: 14px 40px 14px 40px;
+    background-color: black;
+    color: white;
+}
+
+.textx2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 565px;
+}
+
+.gap20px {
+    gap: 20px;
+}
+
+.input1 {
+    width: 260px;
+    height: 52px;
+    border: 1px solid #151515;
+    border-right: none;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    border-left: none;
+}
+.hrefka {
+    padding: 14px 40px 14px 40px;
+    background-color: #ebebeb;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+.max-width750 {
+    max-width: 750px;
+}
+
+.maxwidth500 {
+    max-width: 500px;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.maxwidth650px {
+    max-width: 650px;
+}
+
+.textx5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 27px;
+}
+
+.textx6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.a423 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.a49 {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 77px;
+}
+
+.month {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.textx7 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+ul {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.hrefka2 {
+    padding: 14px 160px 14px 160px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.mg-top-20px {
+    margin-top: 20px;
+}
+
+.max-width650 {
+    width: 350px;
+    height: 500px;
+}
+.gap60px {
+    gap: 60px;
+}
+.pd-60px {
+    padding: 60px 60px 60px 60px;
+}
+.list2 {
+    color: white;
+    background-color: black;
+}
+.border2pxsolid {
+    border: 2px solid;
+}
+.grow1 {
+    flex-grow: 1;
+}
+.hrefka3 {
+    border: 2px solid;
+    padding: 14px 160px 14px 160px;
+    background-color: white;
+    color: black;
+    text-decoration: none; 
+}
+@font-face {
+    font-family: Evelynn;
+    src: url(../fonts/NeueMachina-Ultrabold.otf);}
+
+@media screen and (max-width:1440px) {
+    .sfsdsdf {
+        max-width: 1360px;
+    }
+
+    header {
+        max-width: 1240px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .dfg {
+        flex-direction: column;
+    }
+
+    header {
+        max-width: 98%;
+    }
+
+}
+
