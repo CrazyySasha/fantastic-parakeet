@@ -7,6 +7,9 @@
 .flex {
     display: flex;
 }
+.pd-30px {
+    padding-bottom: 30px;
+}
 
 body {
     background-color: #ebebeb;
@@ -94,6 +97,9 @@ header {
     background-color: black;
     color: white;
     border-left: none;
+}
+.self-start {
+    align-self: start;
 }
 .hrefka {
     padding: 14px 40px 14px 40px;
@@ -211,6 +217,46 @@ ul {
     color: black;
     text-decoration: none; 
 }
+.pi {
+    padding-bottom: 80px;
+}
+.palkalegenda {
+    width: 840px;
+    border: 1px solid;
+    color: #151515;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 560px;
+}
+.content-even {
+    justify-content: space-evenly;
+}
+.max-height400 {
+max-height: 500px;
+}
+.bibra {
+    border: 2px solid white;
+}
+.input2 {
+    width: 260px;
+    height: 52px;
+    border: 1px solid #151515;
+    border-right: none;
+    background-color: black;
+    
+    border: 1px solid white;
+}
+.btn2 {
+    background-color: white;
+    color: black;
+    border-left: none;
+    border: 1px solid black;
+    margin-left: -1px;
+}
+
 @font-face {
     font-family: Evelynn;
     src: url(../fonts/NeueMachina-Ultrabold.otf);}
