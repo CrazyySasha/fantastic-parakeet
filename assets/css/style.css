@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -73,8 +73,8 @@ a {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-.hero-h1 {
+} */
+/* .hero-h1 {
   font-size: 70px;
   font-weight: 400;
   line-height: 80px;
@@ -105,7 +105,7 @@ a {
 }
 .hero-inf {
   max-width: 721px;
-}
+} */
 .menu-btn {
   padding: 5px 16px;
   border: 1px solid black;
@@ -125,13 +125,13 @@ a {
   line-height: 26px;
   letter-spacing: 0px;
 }
-ul li {
+/* ul li {
   list-style: square;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0px;
-}
+} */
 table tr {
   display: flex;
   gap: 28px;

@@ -5,35 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>High Landing</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <header class="flex justify-between items-center px-2">
-      <div class="flex gap40 items-center">
-        <a href="#"><img src="./assets/images/LogoBlack.svg" alt=""></a>
-        <a href="#">About us</a>
-        <a href="#">How it works</a>
-        <a href="#">Pricing</a>
-        <a href="#">FAQs</a>
+  <body class="flex flex-col gap-20 m-0 p-0 box-border font-normal no-underline">
+    <header class="flex justify-between items-center px-10">
+      <div class="flex gap-10 items-center">
+        <a class="text-black" href="#"><img src="./assets/images/LogoBlack.svg" alt=""></a>
+        <a class="text-black" href="#">About us</a>
+        <a class="text-black" href="#">How it works</a>
+        <a class="text-black" href="#">Pricing</a>
+        <a class="text-black" href="#">FAQs</a>
       </div>
-      <div class="flex gap20 items-center">
-        <button class="btn-login">Login</button>
-        <button class="btn-sign">Sign Up</button>
+      <div class="flex gap-5 items-center">
+        <button class="px-11 py-3 bg-transparent border border-transparent">Login</button>
+        <button class="px-11 py-3 bg-black text-white border border-black">Sign Up</button>
       </div>
     </header>
 
-    <section class="flex justify-between max-w-1500 gap40 mx-auto px-2">
-      <div class=" flex flex-col hero-inf gap40">
-        <h1 class="hero-h1 floa">Always Track & 
+    <section class="flex justify-between max-w-screen-2xl gap-10 items-center mx-auto px-10">
+      <div class=" flex flex-col max-w-3xl gap-10">
+        <h1 class="text-[70px] leading-[80px] tracking-[-4px]">Always Track & 
           Analyze Your Business 
           Statistics To Succeed.</h1>
-        <p class="hero-p">A better way to manage your sales, team, clients & marketing
+        <p class="text-lg tracking-normal">A better way to manage your sales, team, clients & marketing
           — on a single platform. Powerful, affordable & easy.</p>
         <div class="flex">
-          <input class="email" type="email" placeholder="Enter your email">
-          <button class="inp-btn">Get started</button>
+          <input class="py-3 pl-5 border-black border border-r-0" type="email" placeholder="Enter your email">
+          <button class=" px-12 py-3 bg-black text-white border-l-0 border border-black">Get started</button>
         </div>
-        <div class="flex payment">
+        <div class="flex gap-8">
           <a href="#"><img src="./assets/images/VISA.svg" alt=""></a>
           <a href="#"><img src="./assets/images/MASTERCARD.svg" alt=""></a>
           <a href="#"><img src="./assets/images/PAYPALL.svg" alt=""></a>
@@ -44,18 +45,18 @@
       </div>
     </section>
 
-    <section class="flex justify-between max-w-1500 mx-auto gap40 px-2">
+    <section class="flex justify-between max-w-screen-2xl items-center mx-auto gap-10 px-10">
       <div>
         <img src="./assets/images/about.svg" alt="">
       </div>
-      <div class="flex flex-col gap40">
-        <button class="menu-btn">About us</button>
-        <h1 class="menu-h1">Faster, friendlier feedback 
+      <div class="flex flex-col max-w-3xl gap-10">
+        <button class="py-1 px-4 border border-black bg-transparent text-black max-w-max">About us</button>
+        <h1 class="text-[60px] leading-[58px] tracking-[-3px]">Faster, friendlier feedback 
           loops make life easier.</h1>
-        <p class="menu-p">Add a Viewer to your team so they can see everything you share, or invite 
+        <p class="text-lg tracking-normal">Add a Viewer to your team so they can see everything you share, or invite 
           people to individual documents. It’s up to you. Stakeholders can check 
           out designs in their web browser, test prototypes and leave feedback for free.</p>
-        <ul class="flex flex-col gap20">
+        <ul class="flex flex-col gap-5 list-[square] text-xl tracking-normal pl-[25px]">
           <li>Shared Cloud Libraries, for a single source of truth</li>
           <li>Prototype previews for user testing and research</li>
           <li>Easy organization with projects</li>
@@ -65,81 +66,89 @@
       </div>
     </section>
 
-    <section class="flex justify-between max-w-1500 mx-auto gap40 px-2">
-      <div class="flex flex-col gap40">
-        <button class="menu-btn">How it works</button>
-        <h1 class="menu-h1">Building the best space 
+    <section class="flex justify-between max-w-screen-2xl items-center mx-auto gap-10 px-10">
+      <div class="flex flex-col gap-10">
+        <button class="py-1 px-4 bg-transparent border border-black text-black max-w-max">How it works</button>
+        <h1 class="text-[60px] tracking-[-3px] leading-[58px]">Building the best space 
           for collaboration.</h1>
-        <table>
-          <tr>
-            <td><img src="./assets/images/shared-clouds.svg" alt=""></td>
-            <td>
-              <h2>Shared Cloud Libraries</h2>
-              <p>Navigate to the Your work panel in the left sidebar. 
+        <div class="flex flex-col gap-12 max-w-2xl">
+          <div class="flex gap-7 items-center">
+            <img src="./assets/images/shared-clouds.svg" alt="">
+            <div class="flex flex-col gap-4">
+              <h1 class="text-[28px] tracking-[-1.4px] leading-[27px]">Shared Cloud Libraries</h1>
+              <p class="text-lg">Navigate to the Your work panel in the left sidebar. 
                 Select the library you want to share. Select the Share 
                 icon in the upper right to share the library.</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="./assets/images/free-developer.svg" alt=""></td>
-            <td>
-              <h2>Free developer handoff, right inside</h2>
-              <p>Cloud Inspector makes it easy for developers to get 
-                the information they need to turn pixels into code — 
-                all in the browser and, most importantly, for free.</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="./assets/images/real-time.svg" alt=""></td>
-            <td>
-              <h2>Real-time collaborative editing</h2>
-              <p>Room Service helps you build real-time collaborative features. Add real-time data sync! Let users edit the same data at the same time.</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="./assets/images/integrations.svg" alt=""></td>
-            <td>
-              <h2>Integrations with the Cloud API</h2>
-              <p>Unlocking that value requires an iPaaS that delivers the transformative power of APIs and integration. </p>
-            </td>
-          </tr>
-        </table>
+            </div>
+          </div>
+          <div class="flex gap-7 items-center">
+            <img src="./assets/images/shared-clouds.svg" alt="">
+            <div class="flex flex-col gap-4">
+              <h1 class="text-[28px] tracking-[-1.4px] leading-[27px]">Shared Cloud Libraries</h1>
+              <p class="text-lg">Navigate to the Your work panel in the left sidebar. 
+                Select the library you want to share. Select the Share 
+                icon in the upper right to share the library.</p>
+            </div>
+          </div>
+          <div class="flex gap-7 items-center">
+            <img src="./assets/images/shared-clouds.svg" alt="">
+            <div class="flex flex-col gap-4">
+              <h1 class="text-[28px] tracking-[-1.4px] leading-[27px]">Shared Cloud Libraries</h1>
+              <p class="text-lg">Navigate to the Your work panel in the left sidebar. 
+                Select the library you want to share. Select the Share 
+                icon in the upper right to share the library.</p>
+            </div>
+          </div>
+          <div class="flex gap-7 items-center">
+            <img src="./assets/images/shared-clouds.svg" alt="">
+            <div class="flex flex-col gap-4">
+              <h1 class="text-[28px] tracking-[-1.4px] leading-[27px]">Shared Cloud Libraries</h1>
+              <p class="text-lg">Navigate to the Your work panel in the left sidebar. 
+                Select the library you want to share. Select the Share 
+                icon in the upper right to share the library.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div>
         <img src="./assets/images/howitworks.svg" alt="">
       </div>
     </section>
 
-    <section class="flex justify-between max-w-1500 mx-auto gap40 px-2 items-center">
+    <section class="flex justify-between max-w-screen-2xl items-center mx-auto gap-10 px-10">
       <div> 
         <img src="./assets/images/pricing.svg" alt="">
       </div>
-      <div class="flex flex-col gap40 float-end">
-        <button class="menu-btn float-right">Pricing</button>
-        <h1 class="menu-h1">Select a membership level
+      <div class="flex flex-col gap-10 text-end items-end">
+        <button class="py-1 px-4 border border-black max-w-max">Pricing</button>
+        <h1 class="text-[60px] leading-[58px] tracking-[-3px]">Select a membership level
           the right price for you.</h1>
-        <p class="menu-p">Prices listed in USD. Taxes may apply. 
+        <p class="text-lg tracking-normal">Prices listed in USD. Taxes may apply. 
           By using program you agree to our terms and policies.</p>
       </div>
     </section>
 
-    <!-- <section class="flex justify-between max-w-1500 mx-auto gap40 px-2 items-center">
-      <div class="flex flex-col max-w-336 justify-between max-h-544">
-        <div>
-          <h1>
-            <sup>$</sup><span>49</span> <sub>per month</sub>
-          </h1>
-          <p class="card-p">A pay-once license, just for you</p>
-        </div>
-        <div>
-          <ul>
-            <li>The Mac app — yours to keep</li>
-            <li>Beautiful White_level</li>
-            <li>One year of saving to Cloud</li>
-          </ul>
-        </div>
-        <button>Join</button>
+    <footer class="flex justify-between py-10 px-10 bg-black text-white text-base">
+      <div>
+        <a href="#"><img src="./assets/images/LogoWhite.svg" alt=""></a>
       </div>
-    </section> -->
+      <div class="flex flex-col gap-4">
+        <h1 class="text-xl font-bold">Email</h1>
+        <a href="#">info@the18.design</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <a href="#">About us</a>
+        <a href="#">How it works</a>
+        <a href="#">Pricing</a>
+        <a href="#">FAQs</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <a href="#">Lead generation</a>
+        <a href="#">Customer engagement</a>
+        <a href="#">Customer support</a>
+        <a href="#">Help Center Articles</a>
+        <a href="#">Outbound Messages</a>
+      </div>
+    </footer>
   </body>
 </html>
