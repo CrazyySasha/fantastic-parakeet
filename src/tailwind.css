@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+@layer components {
+    .btn {
+        @apply tail-bg-primary tail-px-4 tail-py-2 hover:tail-bg-white hover:tail-text-primary;
+    }
+}
