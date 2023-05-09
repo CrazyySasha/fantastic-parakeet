@@ -7,104 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/tailwind.css">
+
 </head>
 
-<body class="dark:bg-slate-900">
-    <header class="container mx-auto flex items-center gap-5 p-5">
-        <a href="">
-            <img src="assets/images/LogoBlack.png" alt="" class="h-[52px]">
-        </a>
-        <nav
-            class="mr-auto p-5 flex max-lg:flex-col max-lg:absolute max-lg:left-0 max-lg:top-0 max-lg:bottom-0 max-lg:right-0 gap-10 max-lg:bg-[rgb(255,255,255,.20)] max-lg:w-9/12  max-lg:-translate-x-full transition duration-300 max-lg:backdrop-blur max-lg:shadow-2xl">
-            <a href="#about">
-                About us
-            </a>
-            <a href="">
-                How it works
-            </a>
-            <a href="">
-                Pricing
-            </a>
-            <a href="">
-                FAQs
-            </a>
+<body class="bg-[#F0F0F0]">
+    <!-- Header Start -->
+    <header>
+        <nav class="font-Neue_Mach px-4 lg:px-6 py-2.5">
+            <div class="flex flex-wrap justify-between items-center mx-auto">
+                <div class="hidden items-normal w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class=" flex justify-between items-center flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0">
+                        <img class="w-[52px] h-[52px]" src="/assets/images/Oval 3.png" alt="">
+                        <li>About Us</li>
+                        <li>How it works</li>
+                        <li>Pricing</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="hidden flex justify-start items-start lg:flex lg:w-auto lg:order-2">
+                    <a href="#" class="text-black px-4 lg:px-5 py-2 lg:py-2.5 mr-2">Log in</a>
+                    <a href="#" class="text-white bg-primary px-4 lg:px-5 py-2 lg:py-2.5 mr-2">Sign Up</a>
+                </div>
+            </div>
         </nav>
-        <button
-            class="border border-transparent py-3 px-9 hover:bg-[#151515] transition duration-200 hover:text-white hover:shadow-lg hover:shadow-slate-700 ml-auto">
-            Login
-        </button>
-        <button
-            class="bg-[#151515] text-white py-3 px-9 hover:bg-white hover:text-[#151515] border border-transparent transition duration-200 ease-in-out  hover:border-[#151515] hover:shadow-lg hover:shadow-[#151515]">
-            Sign up
-        </button>
-        <button class="toggler lg:hidden">
-            menu
-        </button>
     </header>
-
-    <main>
-        <ul class="flex gap-2 max-md:flex-col md:flex-wrap items-start">
-            <li class="max-sm:block hidden first:translate-x-9">
-                <button class="px-4 py-2 bg-orange-500 text-sky-800">button 1</button>
-            </li>
-            <li class="sm:max-md:hidden">
-                <button class="px-4 py-2 bg-orange-500 text-sky-800">button 2</button>
-            </li>
-            <li class="min-[320px]:max-[480px]:hidden">
-                <button class="px-4 py-2 bg-orange-500 text-sky-800">button 3</button>
-            </li>
-            <li class="first:translate-x-9 ">
-                <button class="px-4 py-2 bg-orange-500 text-sky-800">button 4</button>
-            </li>
-            <li>
-                <button class="px-4 py-2 bg-orange-500 text-sky-800">button 5</button>
-            </li>
-            <li>
-                <button class="px-4 py-2 bg-orange-500 text-sky-800">button 6</button>
-            </li>
-            <li>
-                <button class="px-4 py-2 bg-orange-500 text-sky-800">button 7</button>
-            </li>
-            <li class="last:scale-125">
-                <button
-                    class="empty:hidden px-4 py-2 bg-orange-500 rounded-md enabled:hover:bg-orange-600 enabled:hover:shadow-[2px_2px_8px_4px_rgba(251_146_60_/_0.5)] transition-all ease-in-out duration-100  text-white  outline-none focus:ring-4 focus:ring-orange-500/25 enabled:active:scale-90 disabled:bg-slate-600"
-                    disabled>
-                adSd</button>
-                <button
-                    class="empty:hidden px-4 py-2 bg-orange-500 rounded-md enabled:hover:bg-orange-600 enabled:hover:shadow-[2px_2px_8px_4px_rgba(251_146_60_/_0.5)] transition-all ease-in-out duration-100  text-white  outline-none focus:ring-4 focus:ring-orange-500/25 enabled:active:scale-90 disabled:bg-slate-600"
-                    disabled>
-                adSd</button>
-            </li>
-        </ul>
-    </main>
-
-    <section class="min-xxs:max-xs:bg-black min-h-screen">
-        <form action="" class="focus-within:bg-black">
-            <input type="text" placeholder="text" class="placeholder-shown:p-4 placeholder:text-red-500" readonly>
-        </form>
-        <ul>
-            <li class="only-of-type:bg-black"> asd</li>
-            <li class="only-of-type:bg-black"> asd</li>
-            <ads class=""> asd</ads>
-        </ul>
-    </section>
-    <section id="about" class="target:bg-slate-400">
-        <div class="container mx-auto flex flex-col items-center justify-center gap-5 p-5">
-            <h1 class="text-4xl font-bold text-center">
-                About us
-            </h1>
-            <p class="text-center md:text-red-500 md:max-lg:text-2xl hover:text-3xl focus:text-4xl">
-                Lorem ipsum dolor
-            </p>
-
-    </section>
-    <footer class="h-10 bg-primary text-mini"></footer>
-    <script>
-        const btn = document.querySelector('.toggler');
-        btn.addEventListener('click', function () {
-            document.querySelector('nav').classList.toggle('max-lg:translate-x-0');
-        });
-    </script>
+    <!-- Header End -->
+    <div class="container flex gap-60 items-center min-h-[900px]">
+        <div class="font-Neue_Mach max-w-2xl">
+            <h1 class="mt-52 text-sub7xl">Always track & Analyze Your Buisness Statistics To Succeed.</h1>
+            <pre class="tracking-tight mt-5 font-Neue_Mach text-lg">A better way to manage your sales, team, clients & marketing
+— on a single platform. Powerful, affordable & easy.</pre>
+            <!-- <img class="" src="/assets/images/tallpeople_pv_13.png" alt=""> -->
+            <form class="py-5 font-Neue_Mach">
+                <div class="flex">
+                    <input type="email" class="bg-white border border-black text-gray-900 text-subsm block p-2.5 pl-5"
+                        placeholder="Enter your email" required>
+                    <button type="submit" class="text-white border-black bg-primary text-subsm px-11 py-3">Get
+                        Started</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <img src="/assets/images/Illustration_1.png" alt="">
+        </div>
+    </div>
 </body>
 
 </html>
