@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    color: black;
+    font-family: "max";
+}
+
+button {
+    background-color: transparent;
+}
+
+img {
+    cursor: pointer;
+}
+
+body {
+    background-color: #CACACA;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.header-div {
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+    color: white;
+}
+
+.a {
+    transition: all .2s ease-in-out;
+    color: #151515;
+}
+
+.a:hover {
+    transform: scale(1.3);
+    color: white;
+}
+header {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 25px;
+}
+
+.btn1 {
+    background-color: #CACACA;
+    height: 52px;
+    width: 145px;
+    padding: 14px 47px;
+    margin-right: 20px;
+}
+
+.btn2 {
+    background-color: #151515;
+    color: #CACACA;
+    height: 52px;
+    width: 145px;
+    padding: 15px 35px;
+}
+
+.btn3 {
+    background-color: #151515;
+    height: 52px;
+    width: 198px;
+    padding: 15px 45px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+input {
+    border: 1px solid black;
+}
+
+.input {
+    padding: 13px 110px 13px 20px;
+    border-right: none;
+    transition: all .3s ease-in-out;
+}
+
+.input:hover {
+    background-color: #151515;
+    margin-right: 5px;
+    box-shadow: 2px 2px 2px 1px;;
+    color: white;
+    margin-left: 20px;
+    transform: scale(1.1);
+}
+
+.div1 {
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+}
+
+.mb-2-px {
+    margin-bottom: 20px;
+}
+
+.p {
+    margin-bottom: 40px;
+    height: 52px;
+    width: 565px;
+}
+
+.div3 {
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+    transition: all .3s ease-in-out;
+}
+.div2 {
+    transition: all .3s ease-in-out;
+}
+
+.btn1:hover {
+    box-shadow: 2px 2px 2px 1px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    box-shadow: 2px 2px 2px 1px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    box-shadow: 2px 2px 2px 1px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin-left: 3px;
+    transform: scale(1.1);
+    margin-left: 10px;
+}
+
+.div4 {
+    margin-top: 200px;
+}
+
+.hover {
+    transition: all .4s ease-in-out;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+  
+}
+
+.flex-con {
+    margin-left: 50px;
+}
+
+.gap {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.h1 {
+    margin-bottom: 45px;
+    margin-top: 25px;
+}
+
+.btn4 {
+    border: 1px solid black;
+    background-color: #CACACA;
+    height: 36px;
+    width: 108px;
+    padding: 6px 17px;
+    transition: all .4s ease-in-out;
+}
+
+.btn4:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 1px 1px 1px;
+}
+
+.img {
+    margin-right: 30px;
+}
+
+.block3 {
+    flex-shrink: 0;
+}
+
+.block4 {
+    text-align: right;
+}
+
+.btn5 {
+    transition: all .3s ease-in-out;
+}
+
+.btn5:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.border1 {
+    border: 1px dashed white;
+    padding: 15px 20px;
+}
+
+.btn6 {
+    display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+    .nnbb {
+        display: flex;
+        flex-direction: column  ;
+    }
+    .block4 {
+        text-align: left;
+    }
+    .nnbbb {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .flexcon {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+    .btn6 {
+        display: block;
+    }
+}
+
+
+
+
+
+@font-face {
+    font-family: "max";
+    src: url(fonts/NeueMachina-Ultrabold.otf);
+}
